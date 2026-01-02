@@ -4,7 +4,7 @@ dialog::backdrop {
 
 .modal {
     background-color: #0E212F;
-    width: 350px;
+    max-width: 350px;
     padding: 40px;
     border: none;
     border-radius: 15px;

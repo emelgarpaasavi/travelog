@@ -43,3 +43,27 @@
 .icon {
     width: 50px;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .itinerary_item .details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itinerary_item .activities {
+        margin-left: 0px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    .itinerary_item .details {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .itinerary_item .activities {
+        margin-left: 20px;
+    }
+}
