@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+    }
+}

@@ -1,0 +1,45 @@
+.itinerary_item {
+    display: flex;
+    margin-top: 20px;
+}
+
+.itinerary_item p {
+    margin: 0;
+}
+
+.itinerary_item .contents {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+
+.itinerary_item .details {
+    display: flex;
+    padding: 15px;
+}
+
+.itinerary_item .activities {
+    margin-left: 20px;
+    max-width: 450px;
+}
+
+.itinerary_item .delete {
+    cursor: pointer;
+}
+
+.identifier {
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #FFC788;
+    width: 40%;
+}
+
+.icon {
+    width: 50px;
+}

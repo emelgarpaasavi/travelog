@@ -1,0 +1,26 @@
+.plan_details {
+    display: flex;
+    justify-content: center;
+
+}
+
+.left_details {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .plan_details {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    .plan_details {
+        display: flex;
+        flex-direction: row;
+    }
+}

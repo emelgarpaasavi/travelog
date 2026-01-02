@@ -1,0 +1,49 @@
+.itinerary {
+    width: 100%;
+}
+
+.itinerary .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #DAE3EA;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.itinerary .entries_container {
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.itinerary hr {
+    width: 100%;
+    background-color: #0E212F;
+}
+
+.itinerary button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 21px;
+    height: 39px;
+    margin-top: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* width of the vertical scrollbar */
+  height: 12px; /* height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Styles the thumb (draggable handle) */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px; /* Optional: rounds the thumb corners */
+}

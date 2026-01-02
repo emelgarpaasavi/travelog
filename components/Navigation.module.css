@@ -1,0 +1,98 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.navigation button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.plan {
+    cursor: pointer;
+}
+
+.plan h3 {
+    font-weight: 200;
+    margin: 0;
+}
+
+.plan .active {
+    font-size: 21px;
+    font-weight: 400;
+    color: #F89422;
+}
+
+.plans_dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plans_dropdown select {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FFC788;
+    color: #FFFFFF;
+    background-color: #0E212F;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .navigation {
+        display: flex;
+        width: 100%;
+    }
+
+    .navigation .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .plans_list {
+        display: none;
+    }
+
+    .plans_dropdown {
+        display: flex;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    .navigation {
+        display: block;
+        width: 15%;
+    }
+
+    .navigation .header {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .plans_list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .plans_dropdown {
+        display: none;
+    }
+}
