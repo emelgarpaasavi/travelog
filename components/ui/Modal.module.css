@@ -4,8 +4,6 @@ dialog::backdrop {
 
 .modal {
     background-color: #0E212F;
-    max-width: 350px;
-    padding: 40px;
     border: none;
     border-radius: 15px;
 }
@@ -63,6 +61,21 @@ button[type="submit"] {
 
 dialog .actions {
     display: flex;
-    width: 350px;
     justify-content: end;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 300px) {
+    .modal {
+        width: 80vw;
+        padding: 30px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+    .modal {
+        width: 350px;
+        padding: 30px;
+    }
 }
