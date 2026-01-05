@@ -11,6 +11,7 @@ dialog::backdrop {
 .modal h2 {
     color: #FFFFFF;
     text-align: center;
+    justify-content: center;
     margin-bottom: 5px;
     font-size: 21px;
 }
@@ -62,12 +63,13 @@ button[type="submit"] {
 dialog .actions {
     display: flex;
     justify-content: end;
+    margin-right: 30px;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 300px) {
     .modal {
-        width: 80vw;
+        width: 100vw;
         padding: 30px;
     }
 }
